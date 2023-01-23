@@ -1,5 +1,5 @@
 {% set name = "natasha" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 
 package:
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/natasha-{{ version }}.tar.gz
-  sha256: 1dddbe98aad7941ff91f10ac3c1bce8d420c423dd2452b9a4d5249d035353c63
+  sha256: 67afdb3f06fd6c87bfee90c6906aee19fe66f14033cd888ff1e1ca3690d078a7
 
 build:
   skip: true  # [win]
-  number: 6
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -44,4 +44,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - harri-pltr 
+    - harri-pltr
