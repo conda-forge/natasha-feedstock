@@ -1,11 +1,11 @@
-About natasha
-=============
+About natasha-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/natasha-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/natasha/natasha
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/natasha-feedstock/blob/main/LICENSE.txt)
 
 Summary: Named-entity recognition for russian language.
 
